@@ -13,7 +13,7 @@ def mutatePeople(people, percMutate):
 
     # mutation randomization array
     mutationChance = [1]
-    for i in range(10 - percMutate):
+    for i in range(9 - percMutate):
         mutationChance.append(0)
 
     # check for perfect person in generation 1
